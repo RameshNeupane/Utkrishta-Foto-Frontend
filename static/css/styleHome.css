@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+        font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    list-style: none;
+}
+
+header, #front-image{
+    width: 100%;
+}
+
+.nav-bar{
+    background-color: rgb(252, 30, 20);
+    display: flex;
+}
+
+#section-logo{
+    width: 45%;
+    height: 7%;
+    margin: 2vh;
+}
+
+#logo{
+    left: 50%;
+}
+
+nav{
+    width: 50%;
+    text-align: center;        
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 1vh;
+}
+
+.nav-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.nav-icon:hover{
+    transform: scale(1.1);
+}
+
+#display-image{
+    margin-top: 2px;
+}
+
+#intro-title, #service{
+    font-size: 2em;
+    margin: 5px;
+    margin-left: 0;
+    padding: 10px;
+    border-left: 5px solid  rgb(252, 30, 20);
+    background-color: rgb(248, 234, 234);
+}
+
+.intro-block{
+    display: flex;
+    background-color: rgb(240, 220, 190);
+}
+
+#intro-desc, .intro-block-right{
+    width: 50%;
+}
+
+.intro-right-top, .intro-right-bottom{
+    padding: 8% 0;
+}
+
+.intro-right-bottom{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.intro-right-bottom div{
+    display: flex;    
+}
+
+.intro-right-bottom div img{
+    width: 40px;
+    height: 40px;
+}
+
+.intro-right-bottom div div{
+    font-weight: bolder;
+    padding-top: 10%;
+}
+
+
+#intro-desc, .service-list, footer{
+    background-color: rgb(240, 220, 190);
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.intro-right-top ul, .service-list, footer, .footer-left, .footer-mid ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-left, .footer-mid{
+    width: 30%;
+}
+
+.footer-right{
+    width: 40%;
+    padding-left: 5%;
+}
+
+.footer-right div{
+    display: flex;
+    padding: 2% 0;
+}
+
+.footer-right div img{
+    width: 40px;
+    height: 40px;
+}
